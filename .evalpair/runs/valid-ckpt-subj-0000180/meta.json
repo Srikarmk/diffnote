@@ -1,0 +1,23 @@
+{
+ "run": "valid-ckpt-subj-0000180",
+ "suite": "valid-subject",
+ "suite_hash": "dd017269be8eecdea5b3c91a500dbb2d7fcec0c095a4ac783a73392a557c44a5",
+ "checker": "chrf",
+ "backend": "openai",
+ "model": "default_model",
+ "base_url": "http://localhost:8280/v1",
+ "options": {
+  "temperature": 0.0,
+  "seed": 7
+ },
+ "think": null,
+ "max_tokens": 400,
+ "items": 41,
+ "repeat": false,
+ "calls": 41,
+ "cache_hits": 0,
+ "started": "2026-11-08T02:52:37+00:00",
+ "finished": "2026-11-08T02:53:16+00:00",
+ "wall_seconds": 39.6,
+ "evalpair": "0.1.1"
+}

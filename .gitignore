@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.evalpair/cache.sqlite
+.evalpair/invalid-no-adapter/
+adapters/
+results/train-subject-WRONG-MODEL-*.log
+*.log
+!results/*.log
+.DS_Store

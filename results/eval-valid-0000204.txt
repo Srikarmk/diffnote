@@ -1,0 +1,14 @@
+41/41
+valid-ckpt-0000204  (default_model on valid-subject, 41 items)
+  score        14.1% [11.1%, 17.3%]
+  no answer    0    truncated 0    mean output 9.0 tokens
+    format-tax                    19.3%  (5)
+    groupthink                    13.4%  (6)
+    quant-cliff                    8.3%  (4)
+    region-aware-gp               14.1%  (26)
+  failures (unparsed and truncated first):
+    format-tax:12924f6f65: answer 'Add the format-tax project' via chrf  …Add the format-tax project
+    format-tax:8ec0d43478: answer 'Add report.py' via chrf  …Add report.py
+    format-tax:df25052c61: answer 'Add case study' via chrf  …Add case study
+    format-tax:e24ae42b8b: answer 'Add the full run' via chrf  …Add the full run
+    format-tax:fc46ec410e: answer 'Add report: write reports/results.md and reports/figures/' via chrf  …Add report: write reports/results.md and reports/figures/

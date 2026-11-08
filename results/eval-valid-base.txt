@@ -1,0 +1,14 @@
+41/41
+valid-base  (default_model on valid-subject, 41 items)
+  score        22.0% [18.7%, 25.6%]
+  no answer    0    truncated 9    mean output 150.0 tokens
+    format-tax                    24.9%  (5)
+    groupthink                    17.3%  (6)
+    quant-cliff                   17.4%  (4)
+    region-aware-gp               23.2%  (26)
+  failures (unparsed and truncated first):
+    format-tax:8ec0d43478: answer 'format-tax: Add scoring after full run' via chrf, truncated  …U, 4 `qwen3:30b-a3b` that spent all 4,096 tokens thinking); every base Part B error is a real invented value (`eat_type` "restaurant" or `family_friendly` false
+    format-tax:e24ae42b8b: answer 'HYPOTHESES.md: Add hypotheses and analysis plan for pilot run' via chrf, truncated  …very model. - Thinking removes the answer-first cost: for `qwen3:30b-a3b`, answer-first JSON is within 3 pp of reasoning-first JSON on GSM8K. Part B: - The base
+    groupthink:3411e482cc: answer 'scorecard_pilot.md |  96 ++++++++++++++++++++++++++' via chrf, truncated  … held | +| 13 | Real mistakes are more persuasive | held | +| 14 | Sampling plus a vote helps a little | partly | +| 15 | The A/A repeat is quiet | held | + +**
+    groupthink:e8fbfbe8d6: answer '# groupthink' via chrf, truncated  …n. - **Same-model team:** `qwen3:8b` sampled three times at temperature 0.7 with seeds 1, 2 and 3, the usual setup in debate papers (Du et al., 2023). - **Round
+    quant-cliff:ce92cdfb9a: answer 'fix parser to join digit groups split by a space on the answer line and inside `\\boxed{}` only' via chrf, truncated  …plit by a space on the answer line and inside `\boxed{}` only fix parser to join digit groups split by a space on the answer line and inside `\boxed{}` only fix

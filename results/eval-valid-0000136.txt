@@ -1,0 +1,14 @@
+41/41
+valid-ckpt-0000136  (default_model on valid-subject, 41 items)
+  score        21.4% [18.8%, 24.3%]
+  no answer    0    truncated 0    mean output 14.2 tokens
+    format-tax                    19.9%  (5)
+    groupthink                    21.1%  (6)
+    quant-cliff                   17.4%  (4)
+    region-aware-gp               22.4%  (26)
+  failures (unparsed and truncated first):
+    format-tax:12924f6f65: answer 'Add format-tax, a tax format task' via chrf  …Add format-tax, a tax format task
+    format-tax:8ec0d43478: answer 'Add llama3.1:8b, qwen3_30b-a3b, and reformatted fields' via chrf  …Add llama3.1:8b, qwen3_30b-a3b, and reformatted fields
+    format-tax:df25052c61: answer 'Add case study' via chrf  …Add case study
+    format-tax:e24ae42b8b: answer 'Add Part A, Part B, and the design' via chrf  …Add Part A, Part B, and the design
+    format-tax:fc46ec410e: answer 'Add report with accuracy by output format and drift contrast figures' via chrf  …Add report with accuracy by output format and drift contrast figures

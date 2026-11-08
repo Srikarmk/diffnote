@@ -1,0 +1,34 @@
+50/65
+65/65
+qwen3-8b-styled  (qwen3:8b on commits-subject-styled, 65 items)
+  score        25.3% [22.9%, 28.0%]
+  no answer    0    truncated 0    mean output 56.4 tokens
+    Gitgotchi                     26.2%  (31)
+    bostonmove                    21.4%  (5)
+    council-votes                 24.1%  (10)
+    evalpair                      21.0%  (3)
+    hearth                        27.3%  (8)
+    whygit                        25.2%  (8)
+  failures (unparsed and truncated first):
+    Gitgotchi:10e005de9a: answer 'Website and version update: Add website link, fix navigation on phones, update version to 0.4.1' via chrf  …0.4.1, and the corresponding tag and push commands in INSTALL.md were adjusted. The Homepage URL in pyproject.toml was also updated to point to the new website.
+    Gitgotchi:14f5c6920f: answer 'installer: fix hook insertion, quote python path, add amended commit check' via chrf  …arly. The Python path is quoted to handle unusual paths with special characters. A new function checks if the last commit was an amend to avoid double-counting.
+    Gitgotchi:19ed2f4763: answer 'Add card rendering and agent commit stats tracking' via chrf  …ng functionality to save a PNG of the pet, including stats and a 3D scene. Also added agent commit count tracking to state manager to provide data for the card.
+    Gitgotchi:212d1677c6: answer 'Add Halloween features, 3D companion, and possession tracking' via chrf  …, footers, and bot accounts, filling a possession meter and unlocking the Poltergeist form. The CHANGELOG and README have been updated to reflect these changes.
+    Gitgotchi:220c66a99e: answer 'render: improve sprite detail and visual effects' via chrf  …ieve the desired visual effects. The changes were verified by reviewing the rendered output and ensuring the new features align with the described improvements.
+50/65
+65/65
+qwen3-8b  (qwen3:8b on commits-subject, 65 items)
+  score        25.6% [23.2%, 28.2%]
+  no answer    0    truncated 0    mean output 16.1 tokens
+    Gitgotchi                     26.0%  (31)
+    bostonmove                    23.5%  (5)
+    council-votes                 23.7%  (10)
+    evalpair                      23.2%  (3)
+    hearth                        25.7%  (8)
+    whygit                        28.1%  (8)
+  failures (unparsed and truncated first):
+    Gitgotchi:10e005de9a: answer 'Update version to 0.4.1 and add website link to documentation and README' via chrf  …Update version to 0.4.1 and add website link to documentation and README
+    Gitgotchi:14f5c6920f: answer 'Enhance hook installation to handle non-shell scripts and quote Python paths properly' via chrf  …Enhance hook installation to handle non-shell scripts and quote Python paths properly ``` ```
+    Gitgotchi:19ed2f4763: answer 'Add card rendering and agent commit stats tracking' via chrf  …Add card rendering and agent commit stats tracking
+    Gitgotchi:212d1677c6: answer 'Add 3D pixel-art companion, Halloween themes, possession tracking, and new commands (haunt, adopt, card, seance) in 0.3.0' via chrf  …Add 3D pixel-art companion, Halloween themes, possession tracking, and new commands (haunt, adopt, card, seance) in 0.3.0
+    Gitgotchi:220c66a99e: answer 'Update sprites for version 0.3.2' via chrf  …tails with sharper sprites, improved shading, and new glossy highlights. Added gloss and shadow attributes to various forms for more realistic lighting effects.

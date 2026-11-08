@@ -1,0 +1,30 @@
+# LoRA on Qwen2.5-Coder-1.5B-Instruct, bf16 weights, all 28 layers.
+# 363 training examples, batch 2 x 2 accumulation: about 91 optimizer steps per epoch, 3 epochs.
+# lr 1e-4 diverged (train loss 2.8 -> 4.2 by step 60): mlx-lm scale 20 expects about 1e-5.
+model: Qwen/Qwen2.5-Coder-1.5B-Instruct
+train: true
+data: data
+fine_tune_type: lora
+mask_prompt: true
+num_layers: -1
+batch_size: 2
+grad_accumulation_steps: 2
+iters: 544
+learning_rate: 2.0e-5
+lr_schedule:
+  name: cosine_decay
+  warmup: 20
+  arguments: [2.0e-5, 544, 1.0e-7]
+lora_parameters:
+  rank: 16
+  scale: 20.0
+  dropout: 0.05
+  keys: ["self_attn.q_proj", "self_attn.k_proj", "self_attn.v_proj", "self_attn.o_proj", "mlp.gate_proj", "mlp.up_proj", "mlp.down_proj"]
+max_seq_length: 6144
+grad_checkpoint: true
+steps_per_report: 20
+steps_per_eval: 68
+val_batches: -1
+save_every: 68
+adapter_path: adapters/r16
+seed: 7

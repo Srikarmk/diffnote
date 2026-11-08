@@ -1,0 +1,17 @@
+50/65
+65/65
+lora  (default_model on commits-subject, 65 items)
+  score        26.0% [22.6%, 29.4%]
+  no answer    0    truncated 0    mean output 13.2 tokens
+    Gitgotchi                     29.3%  (31)
+    bostonmove                    18.6%  (5)
+    council-votes                 21.9%  (10)
+    evalpair                      17.0%  (3)
+    hearth                        27.6%  (8)
+    whygit                        24.4%  (8)
+  failures (unparsed and truncated first):
+    Gitgotchi:10e005de9a: answer 'Add website link, fix navigation, and bump version to 0.4.1' via chrf  …Add website link, fix navigation, and bump version to 0.4.1
+    Gitgotchi:14f5c6920f: answer 'Add post-commit hook, and test it' via chrf  …Add post-commit hook, and test it
+    Gitgotchi:19ed2f4763: answer 'Add card command: shareable pet card' via chrf  …Add card command: shareable pet card
+    Gitgotchi:212d1677c6: answer 'Add 3D companion, Halloween forms, adoption, demo, and possession' via chrf  …Add 3D companion, Halloween forms, adoption, demo, and possession
+    Gitgotchi:220c66a99e: answer "Fix the pet's shadow, and make the forms look round" via chrf  …Fix the pet's shadow, and make the forms look round

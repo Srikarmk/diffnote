@@ -1,0 +1,14 @@
+41/41
+valid-ckpt-subj-0000225  (default_model on valid-subject, 41 items)
+  score        24.9% [22.0%, 28.1%]
+  no answer    0    truncated 0    mean output 15.4 tokens
+    format-tax                    25.6%  (5)
+    groupthink                    32.0%  (6)
+    quant-cliff                   19.9%  (4)
+    region-aware-gp               23.9%  (26)
+  failures (unparsed and truncated first):
+    format-tax:12924f6f65: answer 'Add format-tax: a tool to format tax questions from the FTA to prompts for LLMs' via chrf  …Add format-tax: a tool to format tax questions from the FTA to prompts for LLMs
+    format-tax:8ec0d43478: answer 'Score the full run, and explain why Llama pays a tax' via chrf  …Score the full run, and explain why Llama pays a tax
+    format-tax:df25052c61: answer 'README badges: case study badge' via chrf  …README badges: case study badge
+    format-tax:e24ae42b8b: answer 'Report on the format tax, schema drift, and thinking on' via chrf  …Report on the format tax, schema drift, and thinking on
+    format-tax:fc46ec410e: answer 'Write reports/results.md and reports/figures/ from the stored answers' via chrf  …Write reports/results.md and reports/figures/ from the stored answers

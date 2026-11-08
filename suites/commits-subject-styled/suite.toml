@@ -1,0 +1,11 @@
+description = "Commit subject lines, house style in the prompt, chrF"
+checker = "chrf"
+max_tokens = 400
+system = """Write the git commit message for this change. Reply with the commit message only: a subject line, then, if the change needs it, a blank line and a body.
+
+House style: the subject is one sentence in the imperative mood, sentence case, no trailing period, usually 40 to 70 characters, naming what changed in plain words (several changes joined with commas or a semicolon). A docs-only change starts with the file, e.g. 'README: ...'. The body is plain prose wrapped at about 72 columns: what was wrong or missing, what changed, and how it was checked, with exact names and numbers. No headings, no emoji, no 'This commit'."""
+user = "{diff}"
+group = "repo"
+license = "MIT; diffs and messages from Srikarmk's public repos"
+[checker_options]
+line = "first"

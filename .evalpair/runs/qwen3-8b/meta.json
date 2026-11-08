@@ -1,0 +1,25 @@
+{
+ "run": "qwen3-8b",
+ "suite": "commits-subject",
+ "suite_hash": "086bafcb25dd22ae632d28eb0638d0169497172b2a7ace6fdc72c93a382ac644",
+ "checker": "chrf",
+ "backend": "ollama",
+ "model": "qwen3:8b",
+ "base_url": "http://localhost:11434",
+ "digest": "500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41",
+ "options": {
+  "temperature": 0.0,
+  "seed": 7,
+  "num_ctx": 8192
+ },
+ "think": false,
+ "max_tokens": 400,
+ "items": 65,
+ "repeat": false,
+ "calls": 65,
+ "cache_hits": 0,
+ "started": "2026-11-08T03:05:28+00:00",
+ "finished": "2026-11-08T03:09:10+00:00",
+ "wall_seconds": 221.7,
+ "evalpair": "0.1.1"
+}

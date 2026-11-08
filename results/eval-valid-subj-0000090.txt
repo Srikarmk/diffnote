@@ -1,0 +1,14 @@
+41/41
+valid-ckpt-subj-0000090  (default_model on valid-subject, 41 items)
+  score        23.6% [20.4%, 26.9%]
+  no answer    0    truncated 0    mean output 15.2 tokens
+    format-tax                    28.5%  (5)
+    groupthink                    29.2%  (6)
+    quant-cliff                   16.4%  (4)
+    region-aware-gp               22.6%  (26)
+  failures (unparsed and truncated first):
+    format-tax:12924f6f65: answer 'Add a format-tax project with a pilot dataset and a full analysis' via chrf  …Add a format-tax project with a pilot dataset and a full analysis
+    format-tax:8ec0d43478: answer 'Addendum: scoring after the full run' via chrf  …Addendum: scoring after the full run
+    format-tax:df25052c61: answer 'README badges: add a case study badge' via chrf  …README badges: add a case study badge
+    format-tax:e24ae42b8b: answer 'Hypotheses and analysis plan: a pilot on 4 pilot items per task for `qwen3:8b`, `llama3.1:8b` and `gemma3:12b`, every condition (456 calls), used to check the templates, schemas and parsers on real outputs, plus one hand-written question per model with an answer-first schema, on which `qwen3:8b` answered 9 and `llama3.1:8b` 19 before reasoning their way to the right 18' via chrf  … one hand-written question per model with an answer-first schema, on which `qwen3:8b` answered 9 and `llama3.1:8b` 19 before reasoning their way to the right 18
+    format-tax:fc46ec410e: answer 'Add a report that shows the answers and the drift contrasts' via chrf  …Add a report that shows the answers and the drift contrasts

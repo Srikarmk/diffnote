@@ -1,0 +1,23 @@
+{
+ "run": "base-styled",
+ "suite": "commits-subject-styled",
+ "suite_hash": "bbf3de7f3d0a4572aca3c6982203950a62013e8657e8684bee207c083c3fbb5c",
+ "checker": "chrf",
+ "backend": "openai",
+ "model": "default_model",
+ "base_url": "http://localhost:8081/v1",
+ "options": {
+  "temperature": 0.0,
+  "seed": 7
+ },
+ "think": null,
+ "max_tokens": 400,
+ "items": 65,
+ "repeat": false,
+ "calls": 65,
+ "cache_hits": 0,
+ "started": "2026-11-08T02:57:29+00:00",
+ "finished": "2026-11-08T02:59:07+00:00",
+ "wall_seconds": 98.2,
+ "evalpair": "0.1.1"
+}

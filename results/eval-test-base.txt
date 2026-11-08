@@ -1,0 +1,34 @@
+50/65
+65/65
+base  (default_model on commits-subject, 65 items)
+  score        20.2% [17.4%, 23.1%]
+  no answer    0    truncated 9    mean output 124.2 tokens
+    Gitgotchi                     23.8%  (31)
+    bostonmove                    13.8%  (5)
+    council-votes                 20.0%  (10)
+    evalpair                      13.9%  (3)
+    hearth                        15.1%  (8)
+    whygit                        17.9%  (8)
+  failures (unparsed and truncated first):
+    Gitgotchi:220c66a99e: answer 'CHANGELOG.md                     |  14 +++++' via chrf, truncated  … has feathered wings and a halo that stays in frame. + ## 0.3.1 diff --git a/src/gitgotchi/__init__.py b/src/gitgotchi/__init__.py index 21bce17..be3cfee 100644
+    Gitgotchi:66876117aa: answer 'fix: add last_visit to pet state' via chrf, truncated  …nager to handle ai_commits Update the `StateManager` class to handle the `ai_commits` column in the `PetState` model. This ensures that the pet's AI commits are
+    Gitgotchi:880d603ff1: answer 'fix(seance): add hauntings and story generation' via chrf, truncated  …rors. The `gitgotchi.dataclasses` module is used to define data classes for the hauntings and their details. The `gitgotchi.re` module is used to match patterns
+    Gitgotchi:b7f803d9ce: answer 'fix: remove state.db and .gitignore files' via chrf, truncated  …rectories Remove the .pyo files in __pycache__ directories as they are no longer needed. fix: remove .pyd files in __pycache__ directories Remove the .pyd files
+    Gitgotchi:fbcc984522: answer 'CHANGELOG.md | 26 ++++++++++++++++++++++++++' via chrf, truncated  …+ brackets in commit messages. +- Amending a commit no longer counts it again. +- Running `adopt` while a commit is being processed could lose an update; writes
+50/65
+65/65
+base-styled  (default_model on commits-subject-styled, 65 items)
+  score        21.9% [19.4%, 24.8%]
+  no answer    0    truncated 2    mean output 60.2 tokens
+    Gitgotchi                     23.4%  (31)
+    bostonmove                    12.8%  (5)
+    council-votes                 22.6%  (10)
+    evalpair                      14.0%  (3)
+    hearth                        21.9%  (8)
+    whygit                        23.8%  (8)
+  failures (unparsed and truncated first):
+    bostonmove:11f25587cc: answer 'bostonmove: add CI workflow, .gitignore, LICENSE, README.md, pyproject.toml, src/bostonmove/__init__.py, src/bostonmove/__main__.py, src/bostonmove/cli.py, src/bostonmove/engine.py, src/bostonmove/geo.py, src/bostonmove/server.py, src/bostonmove/sources.py, src/bostonmove/web.py, tests/conftest.py, tests/fakeweb.py, tests/fixtures/093326fe08c3b920.json, tests/fixtures/0bc01c100b4ecc38.json, tests/fixtures/0edbf735b20a7db2.json, tests/fixtures/0f84d52e1ad05e50.json, tests/fixtures/134ea9043ecda3d6.json, tests/fixtures/136d2f207ce5a789.json, tests/fixtures/13d57ec42f9be0a7.json, tests/fixtures/190ce3bad8ac7e3a.json, tests/fixtures/1b25c33b96baca46.json, tests/fixtures/1ca05b44b161c6ac.json, tests/fixtures/2196345f22da259e.json, tests/fixtures/25aa84541f739ef5.json, tests/fixtures/3442bbf615c75303.json, tests/fixtures/34dd858b19be9c1f.json, tests/fixtures/37cf765c3d4efd09.json, tests/fixtures/37e2c82367f195' via chrf, truncated  …541f739ef5.json, tests/fixtures/3442bbf615c75303.json, tests/fixtures/34dd858b19be9c1f.json, tests/fixtures/37cf765c3d4efd09.json, tests/fixtures/37e2c82367f195
+    hearth:39b2842255: answer 'fix: update .editorconfig, .gitattributes, .gitignore, CREDITS.md, LICENSE, README.md, install.sh, launcher/FONT-LICENSE-OFL.txt, launcher/app/build.gradle, launcher/app/lint.xml, launcher/app/proguard-rules.pro, launcher/app/src/main/AndroidManifest.xml, launcher/app/src/main/java/com/gathin/tvhome/AppAdapter.java, launcher/app/src/main/java/com/gathin/tvhome/AppLaunchActivity.java, launcher/app/src/main/java/com/gathin/tvhome/AppLibraryDialog.java, launcher/app/src/main/java/com/gathin/tvhome/BellDrawable.java, launcher/app/src/main/java/com/gathin/tvhome/CardFeature.java, launcher/app/src/main/java/com/gathin/tvhome/Cards.java, launcher/app/src/main/java/com/gathin/tvhome/ClockActivity.java, launcher/app/src/main/java/com/gathin/tvhome/ClockDream.java, launcher/app/src/main/java/com/gathin/tvhome/ClockScene.java, launcher/app/src/main/java/com/gathin/tvhome/Config.java, launcher/app/src/main/java/com/gathin/tvhome/CoocaaSources.java, launcher/app/src/main/java/com/gathin/tvhome/DiyaDrawable.java, launcher/app/src/main/java/com/gathin/tvhome/DockDecoration.java, launcher/app/src/main/java/com/gathin/tvhome/DockSlots.java, launcher/app/src/main/java/com/gathin/tvhome/Festival.java, launcher/app/src/main/java/com/gathin/tvhome/FireHomeService.java, launcher/app/src/main/java/com/gathin/tvhome/GameDay.java, launcher/app/src/main/java/com/gathin/tvhome/GamepadPassthrough.java, launcher/app/src/main/java/com/gathin/tvhome/GlassView.java, launcher/app/src/main/java/com/gathin/tv' via chrf, truncated  …p/src/main/java/com/gathin/tvhome/GamepadPassthrough.java, launcher/app/src/main/java/com/gathin/tvhome/GlassView.java, launcher/app/src/main/java/com/gathin/tv
+    Gitgotchi:10e005de9a: answer 'Fix website navigation and update version number in CHANGELOG.md, INSTALL.md, README.md, pyproject.toml, and site/index.html.' via chrf  …```markdown Fix website navigation and update version number in CHANGELOG.md, INSTALL.md, README.md, pyproject.toml, and site/index.html. ```
+    Gitgotchi:14f5c6920f: answer 'fix: add GitGotchi to post-commit hook' via chrf  …fix: add GitGotchi to post-commit hook
+    Gitgotchi:19ed2f4763: answer 'fix: add card command to cli' via chrf  …fix: add card command to cli

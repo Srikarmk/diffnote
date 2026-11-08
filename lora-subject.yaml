@@ -1,0 +1,28 @@
+# Subject line only: same prompts, the target is the first line of the message. 272 iters = 1.5 epochs.
+model: Qwen/Qwen2.5-Coder-1.5B-Instruct
+train: true
+data: data/subject
+fine_tune_type: lora
+mask_prompt: true
+num_layers: -1
+batch_size: 2
+grad_accumulation_steps: 2
+iters: 272
+learning_rate: 2.0e-5
+lr_schedule:
+  name: cosine_decay
+  warmup: 20
+  arguments: [2.0e-5, 272, 1.0e-7]
+lora_parameters:
+  rank: 16
+  scale: 20.0
+  dropout: 0.05
+  keys: ["self_attn.q_proj", "self_attn.k_proj", "self_attn.v_proj", "self_attn.o_proj", "mlp.gate_proj", "mlp.up_proj", "mlp.down_proj"]
+max_seq_length: 6144
+grad_checkpoint: true
+steps_per_report: 20
+steps_per_eval: 45
+val_batches: -1
+save_every: 45
+adapter_path: adapters/subj
+seed: 7

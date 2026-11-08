@@ -1,0 +1,14 @@
+41/41
+valid-ckpt-subj-0000180  (default_model on valid-subject, 41 items)
+  score        25.0% [21.7%, 28.6%]
+  no answer    0    truncated 0    mean output 13.2 tokens
+    format-tax                    26.4%  (5)
+    groupthink                    28.0%  (6)
+    quant-cliff                   17.3%  (4)
+    region-aware-gp               25.1%  (26)
+  failures (unparsed and truncated first):
+    format-tax:12924f6f65: answer 'Add format-tax CLI' via chrf  …Add format-tax CLI
+    format-tax:8ec0d43478: answer 'Add scoring after the full run' via chrf  …Add scoring after the full run
+    format-tax:df25052c61: answer 'README badges: case study badge' via chrf  …README badges: case study badge
+    format-tax:e24ae42b8b: answer 'Add analysis plan and hypotheses, and report on pilot results' via chrf  …Add analysis plan and hypotheses, and report on pilot results
+    format-tax:fc46ec410e: answer 'Add report command, and report results to figures' via chrf  …Add report command, and report results to figures

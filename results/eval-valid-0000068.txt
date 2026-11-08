@@ -1,0 +1,14 @@
+41/41
+valid-ckpt-0000068  (default_model on valid-subject, 41 items)
+  score        22.5% [19.1%, 26.5%]
+  no answer    0    truncated 16    mean output 211.7 tokens
+    format-tax                    24.6%  (5)
+    groupthink                    24.3%  (6)
+    quant-cliff                   17.1%  (4)
+    region-aware-gp               22.5%  (26)
+  failures (unparsed and truncated first):
+    format-tax:fc46ec410e: answer 'Add report and figures from analysis' via chrf, truncated  …on is run fourth. The report is now run by default when the report command is run with the --split main and --split pilot options and the --split main option is
+    groupthink:3411e482cc: answer 'Add scorecard_pilot.md and score.py' via chrf, truncated  …read as the vote being no more than 3 pp *below* the best agent (a vote above the best agent is not a miss of a claim that voting costs little). - Predictions 6
+    groupthink:bbd849c89f: answer 'Add hypotheses about scoring after the full run' via chrf, truncated  …on | Result | Verdict | +|---|---|---|---| +| 1 | Round-0 vote ≥ Llama + 5 pp on MMLU; within 3 pp of the best agent | +11.9 pp [+7.5, +16.9]; vote 95.6% vs Gem
+    groupthink:f1e60c4f39: answer 'Correct the one item misparsed in the first published version' via chrf, truncated  …|---| + 7 | Two right in round 0: debate vote right | 50/52 = 96.2% | 49/51 = 96.1% | + 8 | Wrong with right peers: switches | 59/64 = 92.2% | 58/63 = 92.1% | +
+    quant-cliff:182b22214d: answer 'Add a quantization-aware 4-bit build and tests' via chrf, truncated  …sk. The 4-bit build is faster than fp16, and the q4_K_M drop is no worse on either task. The 4-bit build is free, and the q4_K_M drop is no worse than −4 pp for
