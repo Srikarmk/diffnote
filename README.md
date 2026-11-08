@@ -119,6 +119,9 @@ beats it 39 times and loses 26, even though the means are level.
 
 ## Reproduce
 
+The scoring script expects a clone of [evalpair](https://github.com/Srikarmk/evalpair) next to this
+folder (`../evalpair`): the `chrf` checker is on its main branch and not yet in a PyPI release.
+
 ```bash
 uv sync
 uv run python -m diffnote.data       # data/commits.jsonl from the local clones (paths in data.py)
