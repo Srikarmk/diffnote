@@ -101,8 +101,9 @@ beats it 39 times and loses 26, even though the means are level.
   for the model `default_model`; asking for the model by name loaded it without the adapter, and four
   different checkpoints scored exactly the same. [`scripts/eval.sh`](scripts/eval.sh) now always asks
   for `default_model`, and refuses an adapter trained on a different base model.
-- **One run trained the wrong model.** A copied config lost its `model:` line, and mlx-lm silently fell
-  back to its default (Qwen3-0.6B). Nothing from that run is used.
+- **One run trained the wrong model.** A copied config lost its `model:` line, and mlx-lm fell back to its
+  default (Qwen3-0.6B) without a warning. Its run header did name the model, after downloading it, and I
+  missed it. Nothing from that run is used.
 - **The untuned models' replies were mis-scored at first.** They often open a code fence and run out of
   tokens before closing it, and the subject was read as "```markdown". evalpair's chrf checker now drops an
   unclosed opening fence too; all numbers above are after the fix.
